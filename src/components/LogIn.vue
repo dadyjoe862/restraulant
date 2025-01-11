@@ -5,7 +5,6 @@
             <img class="w-40 h-40  mb-10 rounded-full " src="../assets/Logo.png" alt="">
 
 
-
             <div
                 class="w-full bg-no-repeat rounded-xl   md:mt-0 sm:max-w-md xl:p-0  ">
                     
