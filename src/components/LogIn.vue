@@ -12,7 +12,7 @@
                 <div class="p-6 space-y-4 md:space-y-6 sm:p-6 ">
                     
                     <h1
-                        class="text-xl text-center font-bold leading-tight tracking-normal text-gray-600 md:text-2xl  ">
+                        class="text-xl text-center font-bold leading-tight tracking-normal text-gray-100 md:text-2xl  ">
                         Login
                     </h1>
                     <form class="space-y-4 md:space-y-6 " action="#" >
@@ -60,7 +60,7 @@ export default {
 <style >
 
 .bg{
-    background-image: url(../assets/food5.jpg);
+    background-image: url(../assets/food4.jpg);
    background-size: cover ;
    background-repeat: no-repeat;
 
