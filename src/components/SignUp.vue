@@ -1,5 +1,11 @@
 <template>
+    <div>
+        <NavBar />
+
+    </div>
     <div class="bg">
+        <!-- <NavBar /> -->
+
         <div class="flex flex-col items-center justify-center px-8 py-8 mx-auto md:h-screen max-md:h-screen">
             <img class="w-40 h-40 mb-10  rounded-full" src="../assets/Logo.png" alt="">
 
@@ -41,9 +47,15 @@
 </template>
 
 <script>
+import NavBar from './NavBar.vue'
+import { from } from '@apollo/client';
 import axios from 'axios'
 export default {
     name: "SignUp",
+    components: {
+        NavBar
+
+    },
     data() {
         return {
             firstname: '',
